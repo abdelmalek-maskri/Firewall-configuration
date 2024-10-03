@@ -47,8 +47,9 @@ Where:
 ## To start the server program, use the following command:
 ```bash
 ./server <port>
-Replace <port> with the port number you want the server to listen on.
 ```
+Replace <port> with the port number you want the server to listen on.
+
 
 Client
 To use the client program, execute the following commands:
