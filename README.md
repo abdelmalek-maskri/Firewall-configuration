@@ -45,33 +45,34 @@ Where:
 ### Server
 
 ## To start the server program, use the following command:
-
+```bash
 ./server <port>
 Replace <port> with the port number you want the server to listen on.
+```
 
 Client
 To use the client program, execute the following commands:
 
 ## To add a rule:
-
+```bash
 ./client <serverHost> <serverPort> A <rule>
-
+```
 ## To check an IP address and port:
-
+```bash
 ./client <serverHost> <serverPort> C <IPAddress> <port>
-
+```
 ## To delete a rule:
-
+```bash
 ./client <serverHost> <serverPort> D <rule>
-
+```
 ## To list all rules:
-
+```bash
 ./client <serverHost> <serverPort> L
-
+```
 ## Compilation
 
 To compile the source code, navigate to the project directory and run:
-
+```bash
 make
-
+```
 This will generate the necessary binaries for the server and client programs.
